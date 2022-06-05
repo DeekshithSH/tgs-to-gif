@@ -8,5 +8,4 @@ Bot=Client(
     bot_token=Var.BOT_TOKEN,
     sleep_threshold=60,
     workdir="TGBot",
-    plugins={"root": "TGBot/bot/plugins"},
     )
