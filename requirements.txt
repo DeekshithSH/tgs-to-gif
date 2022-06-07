@@ -1,4 +1,3 @@
-lottie[all]
 pyrogram
 python-dotenv
 tgcrypto

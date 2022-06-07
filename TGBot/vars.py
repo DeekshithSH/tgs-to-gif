@@ -10,3 +10,6 @@ class Var(object):
     if "DYNO" in os.environ:
         ON_HEROKU = True
         APP_NAME = str(os.environ.get("APP_NAME"))
+    else:
+        ON_HEROKU = False
+    WORKERS=int(os.environ.get('WORKERS', 4))
